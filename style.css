@@ -28,8 +28,8 @@ figure {
 }
 
 .header, footer, .hero-section, figure, .info {
-    padding-left: 150px;
-    padding-right: 150px;
+    padding-left: 20%;
+    padding-right: 20%;
 }
 
 .header {
@@ -41,11 +41,29 @@ figure {
 .logo{
     color: #F9FAF8;
     font-size: 18px;
+    font-weight:200;
+    display: flex;
+    align-items: center;
 }
 
 .header-links {
     color: #E5E7EB;
     font-size: 18px;
+    font-weight: 200;
     display: flex;
+    align-items: center;
     gap: 20px;
+}
+
+.hero-section {
+    padding-top: 120px;
+    padding-bottom: 120px;
+    display: flex;
+    gap: 50px;
+}
+
+.hero-img {
+    width:100%;
+    height:auto;
+    flex-basis: 600px;
 }
