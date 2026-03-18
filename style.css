@@ -178,3 +178,13 @@ blockquote {
 figcaption {
     text-align: end;
 }
+
+footer {
+    padding: 15px 0 15px 0;
+}
+
+footer p {
+    color:#E5E7EB;
+    text-align: center;
+    font-weight: 200;
+}
