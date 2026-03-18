@@ -20,9 +20,8 @@ button {
     color:#E5E7EB;
 }
 
-h1 {
+h1, h2, h3 {
     font-family: 'Syne';
-    color: #F9FAF8;
     font-weight: 800;
 }
 
@@ -33,7 +32,6 @@ body {
 }
 
 .hero-text {
-    color: #F9FAF8;
     margin-top: 12px;
     margin-bottom: 12px;
 }
@@ -90,6 +88,7 @@ footer, .hero-section, figure, .info {
     display: flex;
     flex-wrap: wrap;
     gap: 50px;
+    color: #F9FAF8;
 }
 
 .hero-section div {
@@ -116,4 +115,21 @@ footer, .hero-section, figure, .info {
     width:100%;
     height:auto;
     min-width: 287px;
+}
+
+.info h2 {
+    text-align: center;
+}
+.info ul {
+    display: flex;
+    gap: 10px;
+}
+
+.info ul li {
+    flex: 1;
+}
+
+.info ul li img {
+    width: 100%;
+    height:auto;
 }
